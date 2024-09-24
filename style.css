@@ -1,0 +1,43 @@
+body {
+    background-color: #093e5a; /* Azul oceano */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #39e8bf; /* Verde, destacando-se do fundo azul */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #19deb4; /* Tom de verde mais escuro para efeito hover */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
